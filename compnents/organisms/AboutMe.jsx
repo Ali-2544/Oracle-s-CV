@@ -63,7 +63,7 @@ function AboutMe() {
                   <img data-aos="fade-right" src="/assits/images/Capture.png" className='rounded-[10px]' alt="" />
                 </div>
               </div>
-              <div data-aos="fade-up" className="year mb-[10px] absolute flex items-center gap-[5px] bottom-[-90px] right-[490px]">
+              <div data-aos="fade-up" className="year mb-[15px] absolute flex items-center gap-[5px] bottom-[-90px] right-[490px]">
                 <div className="w-[8px] h-[50px] bg-customGray"></div>
                 <h2 className='text-[45px] font-medium text-gray-600'>3</h2>
                 <p className='text-[16px] font-medium text-gray-600'>Successful Years</p>
@@ -72,7 +72,7 @@ function AboutMe() {
           </div>
           <div className="main3 w-[50%] gap-[30px] flex flex-col ml-[510px] mx-0 ">
             <h2 className='text-[21px] font-medium text-customGray'>About Me</h2>
-            <h2 className='text-[16px] font-medium text-gray-600'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laborum velit esse cillum dolore eu fugiat.</h2>
+            <h2 data-aos="fade-left"  className='text-[16px] font-medium text-gray-600'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laborum velit esse cillum dolore eu fugiat.</h2>
             <div data-aos="fade-left" className=" flex border-[1px] border-customGray w- rounded-[10px] divide-x ">
               <div className=" flex flex-col gap-[10px] py-[20px]  w-[58%] px-[30px]  ">
                 <h1 className='text-[16px] font-medium text-customGray ' >Name</h1>

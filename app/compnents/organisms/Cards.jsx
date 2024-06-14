@@ -72,7 +72,7 @@ function Cards() {
 
   return (
     <div className='container mb-[50px] relative mt-[50px] flex justify-between w-[100%] ' >
-      <div data-aos-duration="1500" data-aos="zoom-in-down" className="box-outer w-[31%] ">
+      <div data-aos-duration="1000" data-aos="fade-right" className="box-outer w-[31%] ">
         <div  className="box-skill flex flex-col gap-[25px] px-[30px] py-[50px]  rounded-[10px] bg-customGray w-[100%] "
           style={style}
           onMouseMove={handleMouseMove}
@@ -83,7 +83,7 @@ function Cards() {
           <Heading level='6' > I build fast Next.js web apps with React for smooth UX, managing state, styling, and deployment for robust solutions.</Heading>
         </div>
       </div>
-      <div data-aos-duration="1500" data-aos="zoom-in-down" className="box-outer w-[31%] ">
+      <div data-aos-duration="1000" data-aos="fade-up" className="box-outer w-[31%] ">
         <div className="box-skill  flex flex-col gap-[25px] px-[30px] py-[50px]  rounded-[10px] bg-customGray w-[100%] "
           style={styles}
           onMouseMove={handleMouseMoves}
@@ -94,7 +94,7 @@ function Cards() {
           <Heading level='6' >I craft immersive digital experiences with Next.js, where every pixel tells a story and every interaction sparks delight.</Heading>
         </div>
       </div>
-      <div data-aos-duration="1500" data-aos="zoom-in-down" className="box-outer w-[31%] ">
+      <div data-aos-duration="1000" data-aos="fade-left" className="box-outer w-[31%] ">
         <div className="box-skill  flex flex-col gap-[25px] px-[30px] py-[50px]  rounded-[10px] bg-customGray w-[100%] "
           style={styled}
           onMouseMove={handleMouseMoved}
