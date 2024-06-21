@@ -63,7 +63,7 @@ function AboutMe() {
                   <img data-aos="fade-right" src="/assits/images/Capture.png" className='rounded-[10px]' alt="" />
                 </div>
               </div>
-              <div data-aos="fade-up" className="year mb-[15px] absolute flex items-center gap-[5px] bottom-[-90px] right-[490px]">
+              <div data-aos="fade-left" className="year mb-[10px] absolute flex items-center gap-[5px] bottom-[-90px] right-[490px]">
                 <div className="w-[8px] h-[50px] bg-customGray"></div>
                 <h2 className='text-[45px] font-medium text-gray-600'>3</h2>
                 <p className='text-[16px] font-medium text-gray-600'>Successful Years</p>
@@ -91,7 +91,7 @@ function AboutMe() {
                 <h1 className='text-[16px] font-normal text-gray-600 ' >Available</h1>
               </div>
             </div>
-            <DownloadButton />
+            <DownloadButton  />
           </div>
         </div>
       </div>

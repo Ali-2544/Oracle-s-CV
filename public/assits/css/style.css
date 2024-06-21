@@ -1,0 +1,47 @@
+
+  .progress *:not([data-progress]) {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .progress {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .animate-progress {
+    border-radius: 20px !important;
+}
+  .progress [data-progress] {
+    height: 11px;
+    border-radius: 20px !important;
+    border-radius: 30px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 2px;
+    margin: 5px 0 10px 0;
+    overflow: hidden;
+  }
+  
+  [data-progress]::after {
+    content: "";
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #3e3e3e;
+    width: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: white;
+    padding: 0 3px;
+    transition: 2s;
+  }
+  
+  [data-progress].animate-progress::after {
+    content: attr(data-progress) "%";
+    width: var(--animate-progress);
+  }
+  
+  

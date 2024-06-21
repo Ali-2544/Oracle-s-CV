@@ -15,16 +15,16 @@ function Header() {
         </div>
         <div className="flex items-center divide-x gap-[10px] ">
           <div className="nav flex gap-[20px] ">
-            <AnchorTag href='#' >About</AnchorTag>
-            <AnchorTag href='#' >Experience</AnchorTag>
-            <AnchorTag href='#' >Education</AnchorTag>
-            <AnchorTag href='#' >Skills</AnchorTag>
+            <AnchorTag href='#card' >Experience</AnchorTag>
+            <AnchorTag href='#about_me' >About</AnchorTag>
+            <AnchorTag href='#skill' >Skills</AnchorTag>
+            <AnchorTag href='#Portfolio' >Portfolio</AnchorTag>
           </div>
           <div className="icons gap-[10px] pl-[10px] flex">
-            <LiaFacebookF className='hover:text-gray-500 hover:cursor-pointer ease-in duration-300 h-[20px] w-[20px] '  />
-            <FaTwitter className='hover:text-gray-500 hover:cursor-pointer ease-in duration-300 h-[20px] w-[20px] ' />
-            <RiInstagramFill className='hover:text-gray-500 hover:cursor-pointer ease-in duration-300 h-[20px] w-[20px] '  />
-            <FaLinkedin className='hover:text-gray-500 hover:cursor-pointer ease-in duration-300 h-[20px] w-[20px] ' />
+            <a href='https://www.facebook.com/profile.php?id=61551259444727' ><LiaFacebookF className='hover:text-gray-500 hover:cursor-pointer ease-in duration-300 h-[20px] w-[20px] '  /></a>
+            <a href='#' ><FaTwitter className='hover:text-gray-500 hover:cursor-pointer ease-in duration-300 h-[20px] w-[20px] ' /></a>
+            <a href='https://www.instagram.com/codewithpassion4/#' ><RiInstagramFill className='hover:text-gray-500 hover:cursor-pointer ease-in duration-300 h-[20px] w-[20px] '  /></a>
+            <a href='https://www.linkedin.com/in/ali-mehtab-8352b22b0/' ><FaLinkedin className='hover:text-gray-500 hover:cursor-pointer ease-in duration-300 h-[20px] w-[20px] ' /></a>
           </div>
         </div>
       </div>

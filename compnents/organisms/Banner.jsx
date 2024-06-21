@@ -13,7 +13,7 @@ function Banner() {
         <Heading level='2' >FrontEnd Developer</Heading>
         <button className='new-button w-[45%] ' >Get Connected</button>
       </div>
-      <div data-aos="fade-up-left" className="">
+      <div  data-aos="flip-left" className="">
         <img src="/assits/images/PROFILE.png" alt="" />
       </div>
     </div>

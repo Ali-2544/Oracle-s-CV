@@ -1,9 +1,11 @@
 import "../app/globals.css"
 import React from 'react'
+import Skill from "@/compnents/organisms/Skill"
 import Cards from "@/app/compnents/organisms/Cards"
 import Banner from '@/compnents/organisms/Banner'
 import Header from '@/compnents/organisms/Header'
 import AboutMe from '@/compnents/organisms/AboutMe'
+import Portfolio from "@/compnents/organisms/Portfolio"
 
 function Home() {
     return (
@@ -14,9 +16,17 @@ function Home() {
             <div className="container   ">
                 <Banner />
             </div>
-            <Cards />
-            <div className="container ">
+            <div className="pt-[50px]" id="card">
+                <Cards />
+            </div>
+            <div className="container" id='about_me'>
                 <AboutMe />
+            </div>
+            <div id="skill" className="pt-[100px]">
+                <Skill />
+            </div>
+            <div id="Portfolio">
+                <Portfolio />
             </div>
         </div>
     )
